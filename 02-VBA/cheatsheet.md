@@ -6,7 +6,9 @@ Git is a version control (aka source control) tool. One git repo ('repository') 
 
 To get something onto Github, the steps are:
 
-### 1. Create a folder on your computer. Give it a useful name like homework-week-1. From the terminal (OSX) or Git Bash (Windows), get to your home folder (like /Users/tom/ on OSX or c:\Users\tom on Windows) with these commands:
+### 1. Create a folder on your computer.
+
+Give it a useful name like homework-week-1. From the terminal (OSX) or Git Bash (Windows), get to your home folder (like /Users/tom/ on OSX or c:\Users\tom on Windows) with these commands:
 
 ```
 cd
