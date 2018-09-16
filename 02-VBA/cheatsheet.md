@@ -151,9 +151,9 @@ Dim wear As String
 weather = "raining"
 
 If weather = "raining" then
-wear = "coat"
+    wear = "coat"
 Else
-wear = "t-shirt"
+    wear = "t-shirt"
 End If
 ```
 
@@ -188,7 +188,7 @@ shakespeare = "To be or not to be. That is the question"
 words = Split(shakespeare, " ")
 ```
 
-At this point, the variable `words` will be an array - words(0) is "To", words(1) is "be", etc. The point is that the function `Split` takes some arguments (aka parameters) - in this case a string and a character to split on - and returns something - in this case an array.
+At this point, the variable `words` will be an array - `words(0)` is "To", `words(1)` is "be", etc. The point is that the function `Split` takes some arguments (aka parameters) - in this case a string and a character to split on - and returns something - in this case an array.
 
 ### For Loops
 
@@ -205,6 +205,8 @@ And for each row, we could loop through all of its columns too, using a nested l
 
 ```
 Dim i As Integer
+Dim j As Integer
+
 For i = 1 to 10
     For j = 1 to 10
         MsgBox(Cells(i, j).Value)
